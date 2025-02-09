@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Showcase</title>
+</head>
+<body>
+
+    <h1>About Me</h1>
+
+    <h2>How I look</h2>
+    <picture>
+        <source srcset="./Assets/Images/Large.jpg" media="(min-width: 1024px)">
+        <source srcset="./Assets/Images/medium.jpg" media="(min-width: 768px)">
+        <source srcset="./Assets/Images/small.jpg" media="(max-width: 767px)">
+        <img src="./Assets/Images/Large.jpg" alt="My Picture">
+    </picture>
+
+    <h2>Me Dancing</h2>
+    <video controls width="400">
+        <source src="./Assets/Video/My video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>My Declaration</h2>
+    <audio controls>
+        <source src="./Assets/Audio/PRAYER DECLARATION 1.MP4" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Follow me on Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zf_N-Qa3mK4" frameborder="0" allowfullscreen></iframe>
+
+    <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
