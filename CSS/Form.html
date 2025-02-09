@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 360px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: gray;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            background-color: #20c997;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .terms {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>For Individuals</h2>
+        <p>Inspiring wholesome harmony for the mind, body, and spirit, for everyone, everywhere.</p>
+        <label>First Name</label>
+        <input type="text" placeholder="Tolu">
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter Last Name">
+        <label>Gender</label>
+        <select>
+            <option>Select here</option>
+        </select>
+        <label>Date of Birth</label>
+        <input type="date">
+        <label>Weight (KG)</label>
+        <input type="text" placeholder="Enter Weight">
+        <label>Height (CM)</label>
+        <input type="text" placeholder="Enter height here..">
+        <label>Activity Level</label>
+        <select>
+            <option>Select here</option>
+        </select>
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+        <button class="btn">Register</button>
+        <p class="terms">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.</p>
+    </div>
+</body>
+</html>
